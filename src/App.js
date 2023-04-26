@@ -57,6 +57,7 @@ function App() {
 
   return (
     <div className="App">
+      <div id="signout"><AmplifySignOut/></div>
       <h1 class="bannerText">WolfTech Organizer</h1>
       <input
         onChange={e => setFormData({ ...formData, 'name': e.target.value})}
@@ -88,7 +89,6 @@ function App() {
           ))
         }
       </div>
-      <div id="signout"><AmplifySignOut/></div>
     </div>
   );
 }
