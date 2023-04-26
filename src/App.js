@@ -57,7 +57,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 class="bannerText">Daily Fitness Tracker</h1>
+      <h1 class="bannerText">WolfTech Organizer</h1>
       <div id="signout"><AmplifySignOut/></div>
       <input
         onChange={e => setFormData({ ...formData, 'name': e.target.value})}
@@ -66,7 +66,7 @@ function App() {
       />
       <input
         onChange={e => setFormData({ ...formData, 'description': e.target.value})}
-        placeholder="Note description"
+        placeholder="What would you like to remember?"
         value={formData.description}
       />
       <input
@@ -77,11 +77,11 @@ function App() {
         {
           notes.map(note => (
             <div key={note.id || note.name}>
-              <p>==================================================================<br/></p>
+              <p>------------------------------------------------------------------------------------<br/></p>
               <h2 id="noteName">{note.name}</h2>
               <p>{note.description}</p>
               {
-                note.image && <img class="imagePlacement" src={note.image} style={{width: 600}} alt=""/>
+                note.image && <img class="imagePlacement" src={note.image} style={{width: 800}} alt=""/>
               }
               <div/>
               <button onClick={() => deleteNote(note)}>Delete note</button>
