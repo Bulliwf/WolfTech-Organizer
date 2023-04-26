@@ -65,7 +65,7 @@ function App() {
       />
       <input
         onChange={e => setFormData({ ...formData, 'description': e.target.value})}
-        placeholder="Note description"
+        placeholder="Note"
         value={formData.description}
       />
       <input
@@ -88,8 +88,8 @@ function App() {
           ))
         }
       </div>
+      <div id="signout"><AmplifySignOut/></div>
     </div>
-    <div id="signout"><AmplifySignOut/></div>
   );
 }
 
