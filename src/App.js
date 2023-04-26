@@ -57,10 +57,7 @@ function App() {
 
   return (
     <div className="App">
-<<<<<<< HEAD
       <h1 className="bannerText">WolfTech Organizer</h1>
-=======
->>>>>>> 34a4c286e32d8f935dc51ff3cdd122c07eaad50f
       <div id="signout"><AmplifySignOut/></div>
       <h1 class="bannerText">WolfTech Organizer</h1>
       <input
