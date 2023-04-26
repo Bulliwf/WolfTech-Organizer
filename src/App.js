@@ -59,7 +59,6 @@ function App() {
     <div className="App">
       <h1 className="bannerText">WolfTech Organizer</h1>
       <div id="signout"><AmplifySignOut/></div>
-      <h1 class="bannerText">WolfTech Organizer</h1>
       <input
         onChange={e => setFormData({ ...formData, 'name': e.target.value})}
         placeholder="Note name"
@@ -67,7 +66,7 @@ function App() {
       />
       <input
         onChange={e => setFormData({ ...formData, 'description': e.target.value})}
-        placeholder="Note"
+        placeholder="Note description"
         value={formData.description}
       />
       <input
