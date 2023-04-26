@@ -57,8 +57,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 class="bannerText">Daily Fitness Tracker</h1>
-      <div id="signout"><AmplifySignOut/></div>
+      <h1 class="bannerText">WolfTech Organizer</h1>
       <input
         onChange={e => setFormData({ ...formData, 'name': e.target.value})}
         placeholder="Note name"
@@ -90,6 +89,7 @@ function App() {
         }
       </div>
     </div>
+    <div id="signout"><AmplifySignOut/></div>
   );
 }
 
