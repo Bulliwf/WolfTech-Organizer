@@ -66,7 +66,7 @@ function App() {
       />
       <input
         onChange={e => setFormData({ ...formData, 'description': e.target.value})}
-        placeholder="What would you like to remember?"
+        placeholder="Note"
         value={formData.description}
       />
       <input
