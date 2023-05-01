@@ -77,7 +77,7 @@ function App() {
         {
           notes.map(note => (
             <div key={note.id || note.name}>
-              <p>==================================================================<br/></p>
+              <p>----------------------------------------------------------------------<br/></p>
               <h2 id="noteName">{note.name}</h2>
               <p>{note.description}</p>
               {
@@ -89,7 +89,9 @@ function App() {
           ))
         }
       </div>
+     
     </div>
+    
   );
 }
 

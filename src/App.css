@@ -5,9 +5,14 @@
   min-height: 100vh !important;
 }
 
+
+
 #signout{
   margin-bottom: 20px !important;
   background-color: #282c34 !important;
+  margin-left: 890px;
+  margin-right: 1000px;
+  
 }
 
 .imagePlacement {
